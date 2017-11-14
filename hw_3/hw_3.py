@@ -1,5 +1,4 @@
 d=0
-k=0
 word=input("Введите вашу строку")
 f=len(list(word))
 while d<f:  
