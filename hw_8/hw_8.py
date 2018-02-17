@@ -10,12 +10,12 @@ def read():
             dict_list = d.setdefault(key, word)
             list_d.append(key)
             word = ''
+            
 r_choice = ''
 def choice():
     global r_choice
     #функция случайно выбирает одно из слов
     r_choice = random.choice(list_d)
-    return r_choice
 
 def question(r_choice):
     #спрашивает, ищет подходящее слово, сравнивает
