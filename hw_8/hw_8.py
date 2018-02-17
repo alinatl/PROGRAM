@@ -22,7 +22,7 @@ def choice():
 
 def question(r_choice):
     #спрашивает, ищет подходящее слово, сравнивает
-    vvod = input('введите сущ. наиболее употребимое со словом '+r_choice+' ')
+    vvod = input('введите сущ. наиболее употребимое со словом '+r_choice+'...')
     vvod = vvod.lower()
     if vvod == str(d[r_choice]):
         return True
