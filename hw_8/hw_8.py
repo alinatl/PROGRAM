@@ -1,9 +1,7 @@
 import random
 d = {}
-LEN_D = 0
 list_d = []
 def read():
-    global LEN_D
     #функция читает файл и делает из него словарь
     with open('text.csv') as f:
         for line in f:
@@ -12,7 +10,6 @@ def read():
             dict_list = d.setdefault(key, word)
             list_d.append(key)
             word = ''
-    return LEN_D
 r_choice = ''
 def choice():
     global r_choice
